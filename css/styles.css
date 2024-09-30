@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+}
+h1{
+    font-size: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2{
+    font-size: 32px;
+    color: #48BB78;
+}
+
+h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+#authdate{
+    color: #718096;
+}
+
+#sidebaredit{
+    color: #48BB78;
+}
+
+#about{
+    color: #000000;
+}
+
+header{
+    background-color: #63B3ED;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* gap: 8px; */
+}
+
+#headerpic{
+    height: 7em;
+    border-radius: 50%;
+}
+
+#image1{
+    height: 6em;
+    float: right;
+}
+
+#image2{
+    height: 6em;
+    float: left;
+
+}
+
+#about-section{
+    background-color: #E2E8F0;
+    padding: 2px;
+}
+
+a{
+    color: #4299E1;
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    background-color: #2C5282;
+    color: #FFFFFF;
+    height: 4em;
+}
