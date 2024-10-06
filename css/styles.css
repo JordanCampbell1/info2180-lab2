@@ -56,7 +56,7 @@ header{
 
 #about-section{
     background-color: #E2E8F0;
-    padding: 2px 2px 2px 2px;
+    padding: 10px;
 }
 
 a{
@@ -70,13 +70,13 @@ li{
 
 #grid-container{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr;
-    gap: 3em;
-    margin-left: 2em;
+    gap: 7em;
+    margin-left: 7em;
     margin-right: 3em;
     margin-top: 1em;
-    margin-bottom: 1em;
+    margin-bottom: 6em;
 }
 
 footer{
