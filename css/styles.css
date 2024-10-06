@@ -1,6 +1,14 @@
 body{
     margin: 0;
 }
+
+p{
+    font-size: 18px;
+    color: #2D3748;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+
+}
+
 h1{
     font-size: 36px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -11,6 +19,7 @@ h1{
 header p{
     margin-top: 0.5em;
     margin-bottom: 3em;
+    color: #FFFFFF;
 }
 
 h2{
@@ -36,12 +45,18 @@ h3{
 }
 
 header{
+    grid-column: 1 / 3;
     background-color: #63B3ED;
     color: #FFFFFF;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+main{
+    grid-column: 1;
+    margin-left: 6em;
 }
 
 #headerpic{
@@ -86,12 +101,13 @@ ul{
 #grid-container{
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-template-rows: 1fr;
-    gap: 7em;
-    margin-left: 9em;
+    grid-template-rows: auto auto auto;
+    gap: 5em;
+    /* gap: 7em; */
+    /* margin-left: 9em;
     margin-right: 4em;
     margin-top: 1em;
-    margin-bottom: 6em;
+    margin-bottom: 6em; */
 }
 
 article{
@@ -100,6 +116,7 @@ article{
 }
 
 footer{
+    grid-column: 1 / 3;
     display: flex;
     align-items: center;
     background-color: #2C5282;
@@ -109,9 +126,12 @@ footer{
 
 footer p{
     margin-left: 12em;
+    color: #FFFFFF;
 }
 
 aside{
+    grid-column: 2;
     margin-top: 2em;
+    margin-right: 4em;
 }
 
