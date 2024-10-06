@@ -45,6 +45,7 @@ header{
 }
 
 #headerpic{
+    margin-top: 2em;
     height: 11em;
     border-radius: 50%;
 }
